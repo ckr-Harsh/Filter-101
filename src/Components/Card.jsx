@@ -12,8 +12,11 @@ import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
     root: {
-      maxWidth: 345,
+      maxWidth: 340,
     },
+    media:{
+      height:140,
+    }
   });
 
 function Cards(props) {
@@ -25,10 +28,7 @@ function Cards(props) {
     <Card >
         <CardActionArea>
         <CardMedia
-          component="img"
-          alt="Demo Img"
-          height="140"
-          width='240'
+          className={classes.media}
           img={props.img}
           title="Demo Img"
         />
