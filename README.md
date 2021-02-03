@@ -4,7 +4,7 @@ Filter 101 is a responsive [React](http://facebook.github.io/react/index.html) a
 
 ## Demo
 
-Isn't hosted yet.
+https://ckr-harsh.github.io/Filter-101.git
 
 ## Tools
 
