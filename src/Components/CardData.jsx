@@ -7,22 +7,22 @@ import a8 from '../Store/Type_8.jpg'
 import a9 from '../Store/Type_9.jpg'
 import a10 from '../Store/air.jpg'
 import a11 from '../Store/Type_11.jpg'
-import a6 from "../Store/Type_6.jpg"
+import a6 from "../Store/Type_6.png"
 
 
 
 
   const  Data =[
     {
-        name:'Snickers',
+        name:'Casual',
         gender:'Female',
         size:'M',
         price:'5000',
         brand:'Brand A',
-        img:aa,
+        img:aa
     },
     {
-        name:'Runners',
+        name:'Rubies',
         gender:'Female',
         size:'S',
         price:'7000',
@@ -30,7 +30,7 @@ import a6 from "../Store/Type_6.jpg"
         img:ab,
     },
     {
-        name:'Polka dot',
+        name:'Polka dots',
         gender:'Female',
         size:'M',
         price:'9000',
@@ -38,7 +38,7 @@ import a6 from "../Store/Type_6.jpg"
         img:a3,
     },
     {
-        name:'Basketball shoes',
+        name:'Runners',
         gender:'Male',
         size:'M',
         price:'2000',
@@ -46,7 +46,7 @@ import a6 from "../Store/Type_6.jpg"
         img:a4,
     },
     {
-        name:'Random shoes',
+        name:'Pink',
         gender:'Female',
         size:'S',
         price:'6000',
@@ -54,7 +54,7 @@ import a6 from "../Store/Type_6.jpg"
         img:a6,
     },
     {
-        name:'Volleyball shoes',
+        name:'Simple Ones',
         gender:'Male',
         size:'M',
         price:'4000',
@@ -82,7 +82,7 @@ import a6 from "../Store/Type_6.jpg"
         gender:'Male',
         size:'M',
         price:'7000',
-        brand:'B',
+        brand:'Brand B',
         img:a10,
     },
     {

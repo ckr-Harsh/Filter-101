@@ -22,6 +22,7 @@ const useStyles = makeStyles({
 
 function Cards(props) {
     const classes = useStyles();
+    const imgs = props.img;
     return (
       <div className='card'>
         <div className={classes.root} >
@@ -29,8 +30,9 @@ function Cards(props) {
     <Card >
         <CardActionArea>
         <CardMedia
+          component='img'
           className={classes.media}
-          img={props.img}
+          image={imgs}
           title="Demo Img"
         />
         <CardContent>
@@ -38,7 +40,7 @@ function Cards(props) {
            {props.name}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-           Some Info about the Product
+           {props.brand}
           </Typography>
         </CardContent>
       </CardActionArea>

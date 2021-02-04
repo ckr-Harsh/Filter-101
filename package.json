@@ -1,7 +1,7 @@
 {
   "name": "filter",
   "version": "0.1.0",
-  "homepage": "http://ckr-harsh.github.io/Filter-101.git",
+  "homepage": "http://ckr-harsh.github.io/Filter-101",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.3",
